@@ -14,7 +14,7 @@ function statusChangeCallback(response) {
   }
 }
 
-function changeUser(response)	{
+/*function changeUser(response)	{
 	console.log('Response is ')
 	console.log(response)
 	
@@ -25,3 +25,4 @@ function changeUser(response)	{
 	var picture = $("img").find("#photo")
 	picture.attr("src","response.picture.data.url)
 }
+*/
