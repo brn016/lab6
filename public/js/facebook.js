@@ -15,5 +15,13 @@ function statusChangeCallback(response) {
 }
 
 function changerUser(response)	{
+	console.log('Response is ')
+	console.log(response)
 	
+	var fbButton = $("p.facebookLogin")
+	fbButton.hide()
+	var name = $("h1").find("#name");
+	name.text(response.name)
+	var picture = $("img").find("#photo")
+	picture.attr("src","response.picture.data.url)
 }
