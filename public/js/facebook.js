@@ -22,6 +22,6 @@ function changeUser(response)	{
 	fbButton.hide()
 	var name = $("h1").find("#name");
 	name.text(response.name)
-	picture.attr("src","response.picture.data.url)
+	picture.attr("src","response.picture.data.url")
 	var picture = $("img").find("#photo") */
 }
