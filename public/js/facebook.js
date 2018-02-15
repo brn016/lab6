@@ -23,5 +23,5 @@ function changeUser(response)	{
 	var name = $("h1").find("#name");
 	name.text(response.name)
 	picture.attr("src","response.picture.data.url")
-	var picture = $("img").find("#photo") */
+	var picture = $("img").find("#photo")
 }
