@@ -1,8 +1,8 @@
 function checkLoginState() {
   FB.getLoginStatus(function(response) {
-    statusChangeCallback(response);
-	changeUser(response);
-  });
+    statusChangeCallback(response);{
+	//changeUser(response);
+  }});
 }
 
 function statusChangeCallback(response) {
@@ -15,7 +15,7 @@ function statusChangeCallback(response) {
   }
 }
 
-function changerUser(response)	{
+function changeUser(response)	{
 	console.log('Response is ')
 	console.log(response)
 	
